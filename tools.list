@@ -4,7 +4,7 @@ bettercap
 wireshark-cli
 gobuster
 ghidra
-pyhton-uncompyle6
+python-uncompyle6
 hashcat
 hydra
 crunch
