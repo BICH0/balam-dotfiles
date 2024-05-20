@@ -1,7 +1,8 @@
 nmap
 aircrack-ng
 bettercap
-wireshark-cli
+wireshark-qt
+burpsuite
 gobuster
 ghidra
 python-uncompyle6
@@ -14,3 +15,5 @@ metasploit
 proxychains-ng
 cmsfuzz
 https://aur.archlinux.org/vscodium-bin.git
+sqlmap
+john
