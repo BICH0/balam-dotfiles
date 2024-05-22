@@ -189,6 +189,9 @@ bindsym $mod+v exec rofi -modi "clipboard:greenclip print" -show clipboard -run-
 bindsym $mod+g gaps inner 0;gaps outer 0
 bindsym $mod+Shift+g gaps outer 5px;gaps inner 30px
 
+# Launch powermenu
+bindsym $mod+Escape exec ~/.config/rofi/powermenu/powermenu.sh
+
 # launchig feh (background)
 exec --no-startup-id feh --bg-fill /usr/share/backgrounds/balam01.png
 
