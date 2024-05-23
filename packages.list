@@ -1,0 +1,7 @@
+#LEAVE EMPTY THE FIELDS TO DEFAULT BEHAVIOUR
+#The format is space/comma separated packages (ex: WM_PKGS="i3 i3-lock i3-status")
+#This contains the window manager packages, it can also be a desktop environment, just make sure its xorg compatible
+WM_PKGS=""
+
+#WARNING it's very important that the first package in the list is the display manager, if you are not sure what are you doing keep it empty
+DM_PKGS=""

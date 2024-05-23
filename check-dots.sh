@@ -1,10 +1,18 @@
 #!/bin/bash
 
-#  Version: 0.0.1
+#  Version: 0.0.2
 #  Check script to verify all the dotfiles location and permissions
 #  by BiCH0
 
-needed_files="ohmyzsh-themes/balamos.zsh-theme ohmyzsh-themes/balamosr.zsh-theme root/.zlogin root/.zshrc skel/.zshrc skel/.config/i3/config skel/.config/polybar/config.ini skel/.config/rofi/config.rasi ly.conf tools.list"
+needed_files="\
+ohmyzsh-themes/balamos.zsh-theme \
+ohmyzsh-themes/balamosr.zsh-theme \
+root/.zlogin root/.zshrc skel/.zshrc \
+skel/.config/i3/config \
+skel/.config/polybar/config.ini \
+skel/.config/rofi/config.rasi \
+ly.conf \
+tools.list"
 needed_exec_files=""
 needed_symlinks=""
 recommended_files="\
@@ -17,10 +25,12 @@ skel/.config/gtk-3.0/settings.ini \
 skel/.config/gtk-4.0/colors.css \
 skel/.config/gtk-4.0/gtk.css \
 skel/.config/gtk-4.0/settings.ini \
+skel/.config/nano/nanorc \
 skel/.config/ranger/rc.conf \
 skel/.config/ranger/rifle.conf \
 skel/.config/dircolors \
-skel/.config/greenclip.toml"
+skel/.config/greenclip.toml\
+tools.list"
 recommended_dirs="\
 skel/.mozilla/firefox/default.default-release"
 recommended_symlinks="\
