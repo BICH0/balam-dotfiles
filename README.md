@@ -13,7 +13,7 @@
 # Index
 * ### [Installation](#🚀-installation)
 * ### [Previews](#📷-previews)
-* ### [HowTo Customize](#-usage)
+* ### [HowTo Customize](#☕-howto-customize)
 * ### [License](#-license)
 
 # 🚀 Installation
@@ -30,7 +30,7 @@ sudo cp -r skel/. ~ #This will apply the dotfiles to the current user
 sudo cp -r root/. /etc/root #This will apply the dotfiles to the root user
 ```
 The following command is only necessary if you are using ly as your session manager
->![[TIP]]
+>[!TIP]
 >To know if you have ly enabled use the following command
 >```bash
 >ll /etc/systemd/system/display-manager.service #It should point to ly.service
@@ -95,7 +95,7 @@ In this section you will learn all the things needed to create your own balam-do
 ## Setting up the repository
 Firstly, you will need to create a github repository named balam-dotfiles.
 
->![[WARNING]]
+>[!WARNING]
 >The repository needs to be public and named balam-dotfiles if you want other users to use it.
 
 ```bash
@@ -121,7 +121,7 @@ https://github.com/<yourname>/balam-dotfiles.git
     ├╶ https://github.com/<yourname>/balam-dotfiles/tree/master # <- Main branch
     └╶ https://github.com/<yourname>/balam-dotfiles/tree/release
 ```
->![[WARNING]]
+>[!WARNING]
 >The branches should contain the following content:
 >- master/main: This branch contains all the dotfiles, along with the README.md, LICENSE, check-dots.sh and previews
 >- release: This branch should only contain the dotfiles, this will prevent the user to download innecesary data and thus speed up the installation
@@ -218,7 +218,7 @@ The file [check-dots.sh](/check-dots.sh) checks all the needed files and its per
 Once everything is complete, all your dotfiles are placed in the repository, the colors and borders are pixel perfect, it only needs to be shown to the world!! Take some screenshots so people can preview what your h4xx0r rig looks like.
 
 ### Description
-Add a little description of what is shown on the screenshots, see [my description]() to take some inspiration
+Add a little description of what is shown on the screenshots, see [my description](#description) to take some inspiration
 
 ### Dircolors
 This script creates a workspace in your homedir, you just have to take a screenshot and upload it to your README.md
@@ -255,7 +255,7 @@ chmod +1002 sticky-ow
 # To show use ls -lrt .
 ```
 ### Prompts
->![[WARNING]]
+>[!WARNING]
 >Take the pictures inside the previously created folder (at ~/workspace) or create your own and use `git init` to create an empty repository, this is needed to show the git prompt.
 
 Just take a picture like [this one](#previews) showing the prompt and `sudo su` to take one of the root's prompt
