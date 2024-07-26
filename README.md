@@ -134,7 +134,7 @@ The first step is to understand what each component does, so here is a brief des
 
 - [ly](https://github.com/fairyglade/ly): Display manager, this component is responsible for displaying the login screen.
 - [i3](https://github.com/i3/i3): Window manager, is the equivalent of a desktop environment but much more 1337, it draws the windows and manages them.
-- [i3-lock](): BalamOs actually uses a modified version which you can find [here](), i3lock is just what it sounds like, a lock screen for i3.
+- [i3-lock](https://github.com/i3/i3lock): BalamOs actually uses a modified version which you can find [here](https://github.com/Raymo111/i3lock-color), i3lock is just what it sounds like, a lock screen for i3.
 - [polybar](https://github.com/polybar/polybar): This program is the hearth of a nice wm environment, it draws a single (or multiple) status bars with different components, showing relevant info such as current workspace, system tray...
 - [dunst](https://github.com/dunst-project/dunst): Notification daemon, shows a pretty window with the system notifications such as messages, discord calls, network status...
 - [rofi](https://github.com/davatorium/rofi): Rofi is an alternative to dmenu, it can be used to generate menus, in BalamOs you can find it in the power menu, clipboard and app launcher.
