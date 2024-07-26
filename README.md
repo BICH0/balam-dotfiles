@@ -190,9 +190,9 @@ skel
  │   ├╶ i3
  │   │   ├╶ i3lock.sh                   # This is a wrapper for the i3lock program, set all the settings here and bind it on i3, polybar and wherever you want.
  │   │   └╶ logout.sh                   # Wrapper for lockscreen, since i3lock doesnt allow config files all the options need to be supplied as comments arguments, you need to bind it as needed.
- │   |   └╶ polybar.sh                  # This script launches a polybar session for each screen, to use it add this line to .config/i3/config: exec_always --no-startup-id ~/.config/i3/polybar.sh
+ │   │   └╶ polybar.sh                  # This script launches a polybar session for each screen, to use it add this line to .config/i3/config: exec_always --no-startup-id ~/.config/i3/polybar.sh
  │   ├╶ nano
- │   |   └╶ nanorc                      # Nano config file
+ │   │   └╶ nanorc                      # Nano config file
  │   ├╶ ranger
  │   │   ├╶ rc.conf                     # Ranger config file
  │   │   ├╶ rifle.conf                  # Ranger file that specifies default program for each filetype
